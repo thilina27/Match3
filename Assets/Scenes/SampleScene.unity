@@ -588,6 +588,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1949128101}
   - component: {fileID: 1949128100}
+  - component: {fileID: 1949128102}
+  - component: {fileID: 1949128103}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -610,7 +612,14 @@ MonoBehaviour:
   tileMap: {fileID: 1587442259}
   skipTile: {fileID: 11400000, guid: a08e24d7e6628504e9159a03b68bf898, type: 2}
   tileObjects:
-  - {fileID: 9003223963689281457, guid: dcfa150433e47994ebf8b1bc2346b4f9, type: 3}
+  - {fileID: 6785587474749300363, guid: dcfa150433e47994ebf8b1bc2346b4f9, type: 3}
+  - {fileID: 9067947906057678035, guid: 1f9bc2baa3eecbe48aaac571067bd966, type: 3}
+  - {fileID: 7546330455287466901, guid: 1977995712407c04a9f16047a8d9552e, type: 3}
+  - {fileID: 3570572401443176375, guid: 6681822d38bb9f74ca0f397bbf767f5a, type: 3}
+  - {fileID: 7827938838879808680, guid: e604a0a06f0ad2f4588b7a1127b77381, type: 3}
+  - {fileID: 7291688331022248272, guid: b06ad6d962700de40a25e00ccd3b09c8, type: 3}
+  - {fileID: 7254899539163575961, guid: fe78d4afa3f68664fa71adf376f4aea6, type: 3}
+  - {fileID: 527268415901555556, guid: 06e4910d9238ddb418ce390133ed7724, type: 3}
 --- !u!4 &1949128101
 Transform:
   m_ObjectHideFlags: 0
@@ -626,6 +635,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1949128102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949128099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06b9ba2fd8a29f489fd0c5243309b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1949128103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949128099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9f830c711a1f0408d01019bde7886e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Drag: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
