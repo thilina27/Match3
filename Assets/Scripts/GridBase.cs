@@ -18,6 +18,11 @@ namespace Match3
         {
             Tiles[posX, posY] = tile;
         }
+
+        public bool HasTileOn(int x, int y)
+        {
+            return Tiles[x, y] != null;
+        }
     }
 
 }
